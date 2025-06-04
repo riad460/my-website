@@ -1,0 +1,61 @@
+body{
+  height: 3000px;
+}
+div{
+  font-family: Arial;
+}
+.sidebar-1{
+ background-color: rgb(33,33,33);
+ position: fixed;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 10px;
+}
+
+.picture{
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+.sidebar-2{ 
+  background-color: rgb(55,55,55);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 65px;
+  width: 140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px; 
+} 
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name{
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.new{
+ color: rgb(155,155,155);
+ font-size: 21px;
+ cursor: pointer;
+}
+.channel{
+  color: rgb(155,155,155);
+  margin-bottom: 16px;
+  cursor: pointer;
+}
