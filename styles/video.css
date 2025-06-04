@@ -46,6 +46,17 @@
 
 }
 
+@media (max-width:320px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+    thumnails{
+      width: 100%;
+    }
+  }
+
+}
+
+
 
 @media (min-width=75px) and  (max-width:999px){
   .video-grid{
